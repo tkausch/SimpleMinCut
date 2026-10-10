@@ -24,6 +24,11 @@ Laufzeit dieser Variante: `O(|V|³)` (Linearsuche des am stärksten verbundenen
 Knotens auf einer Adjazenzmatrix). Mit einer Fibonacci-Halde ließe sich eine
 Phase auf `O(|E| + |V| log |V|)` drücken.
 
+## Weiterführende Literatur
+
+Blogartikel zur Semesterarbeit:
+[Mincut Thesis Summary](https://kausch.li/mincut-thesis-summary/)
+
 ## Verwendung als Library
 
 ```swift
