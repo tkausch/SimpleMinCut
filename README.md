@@ -3,7 +3,7 @@
 A Swift package of about 150 lines that computes a global minimum cut with the
 Stoer–Wagner algorithm ([SW94], "A Simple Min-Cut Algorithm"). It is the
 implementation companion to my 1998 ETH semester thesis *Minimale Schnitte in
-Graphen* (`mincut11.pdf`) and the blog post
+Graphen* ([`mincut11.pdf`](mincut11.pdf)) and the blog post
 [Minimum cuts in graphs — revisiting my 1998 ETH thesis](https://kausch.li/mincut-thesis-summary/).
 
 The goal is readability, not speed: a weighted adjacency matrix, a linear scan
@@ -219,5 +219,5 @@ Next steps, in order of payoff:
 ## References
 
 - [SW94] M. Stoer, F. Wagner: *A Simple Min-Cut Algorithm*. ESA 1994 / J. ACM 44(4), 1997.
-- T. Kausch: *Minimale Schnitte in Graphen*, semester thesis, ETH Zürich, 1998 (`mincut11.pdf`).
+- T. Kausch: *Minimale Schnitte in Graphen*, semester thesis, ETH Zürich, 1998 ([`mincut11.pdf`](mincut11.pdf)).
 - Blog: [Minimum cuts in graphs — revisiting my 1998 ETH thesis](https://kausch.li/mincut-thesis-summary/)
