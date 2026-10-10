@@ -115,6 +115,7 @@ func matchesBruteForceOnRandomGraphs() throws {
     }
 }
 
+
 /// Deterministic PRNG for reproducible tests.
 private struct SeededGenerator: RandomNumberGenerator {
     private var state: UInt64

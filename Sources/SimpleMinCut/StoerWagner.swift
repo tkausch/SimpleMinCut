@@ -76,6 +76,11 @@ extension Graph {
     /// adding the vertex `z ∉ A` with maximal `w(A, z)`. Returns the
     /// second-to-last (`s`) and last (`t`) added vertex; the phase cut is
     /// `({t}, V\{t})`.
+    ///
+    /// - Complexity: `O(|A|^2)`, where `|A| = active.count`. Each of the
+    ///   `|A|` iterations does a linear scan over `remaining` to find the
+    ///   most strongly connected vertex and then updates its connectivity
+    ///   value, both `O(|A|)`.
     private static func minimumCutPhase(w: [[Double]], active: [Int]) -> (s: Int, t: Int) {
         var remaining = active
         var connectivity = [Int: Double](uniqueKeysWithValues: active.map { ($0, 0) })
