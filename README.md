@@ -1,7 +1,5 @@
 # SimpleMinCut: Stoer–Wagner in Swift
 
-![Minimum Cuts in Graphs: a graph split into S and V\S by a cut of weight 3](MinimumCutsInGraphs.png)
-
 A Swift package of about 150 lines that computes a global minimum cut with the
 Stoer–Wagner algorithm ([SW94], "A Simple Min-Cut Algorithm"). It is the
 implementation companion to my 1998 ETH semester thesis *Minimale Schnitte in
